@@ -17,12 +17,12 @@ public class C1L1objectives01 {
 		}
 		if (collision.gameObject.tag == "Sink")
 		{
-			wardrobe = true;
+			sink = true;
 			Debug.Log("Teeth brushed!");
 		}
 		if (collision.gameObject.tag == "Waffle")
 		{
-			wardrobe = true;
+			waffle = true;
 			Debug.Log("Finished breakfast!");
 		}
 	}
