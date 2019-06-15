@@ -15,5 +15,15 @@ public class C1L1objectives {
             wardrobe = true;
             Debug.Log("All dressed!");
         }
+		if (collision.gameObject.tag == "Sink")
+		{
+			wardrobe = true;
+			Debug.Log("Teeth brushed!");
+		}
+		if (collision.gameObject.tag == "Waffle")
+		{
+			wardrobe = true;
+			Debug.Log("Finished breakfast!");
+		}
     }
 }

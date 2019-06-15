@@ -1023,7 +1023,7 @@ GameObject:
   - component: {fileID: 445900455}
   m_Layer: 0
   m_Name: Sink
-  m_TagString: Untagged
+  m_TagString: Sink
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1702,7 +1702,7 @@ GameObject:
   - component: {fileID: 1104399837}
   m_Layer: 0
   m_Name: 4876Waffle
-  m_TagString: Untagged
+  m_TagString: Waffle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2753,7 +2753,7 @@ GameObject:
   - component: {fileID: 1662875068}
   m_Layer: 0
   m_Name: Wardrobe
-  m_TagString: Untagged
+  m_TagString: Wardrobe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3039,7 +3039,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1697322310}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f1e528e9989eb34bb898b2d5d4c7971, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b37901f538213946ba9ec4ee470f25b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1772283223
