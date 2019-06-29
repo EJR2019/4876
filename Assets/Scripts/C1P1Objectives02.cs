@@ -13,12 +13,14 @@ public class C1P1Objectives02 : MonoBehaviour {
     public bool sink = false;
     public bool waffle = false;
     public int objectives;
+    public AudioSource ObjectiveCompleted;
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Wardrobe")
         {
             wardrobe = true;
+            ObjectiveCompleted.Play();
             Debug.Log("All dressed!");
             objectives++;
             print(objectives);
@@ -28,6 +30,7 @@ public class C1P1Objectives02 : MonoBehaviour {
 
         {
             sink = true;
+            ObjectiveCompleted.Play();
             Debug.Log("Teeth brushed!");
             objectives++;
             print(objectives);
@@ -36,6 +39,7 @@ public class C1P1Objectives02 : MonoBehaviour {
         if (collision.gameObject.tag == "Waffle")
         {
             waffle = true;
+            ObjectiveCompleted.Play();
             Debug.Log("Finished breakfast!");
             objectives++;
             print(objectives);

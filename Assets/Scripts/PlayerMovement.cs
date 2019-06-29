@@ -7,15 +7,18 @@ public class PlayerMovement : MonoBehaviour {
 	public Rigidbody2D RB;
 	private Vector2 moveVelocity;
 
-	void Start (){
+	void Start ()
+    {
 		RB = GetComponent<Rigidbody2D> ();
 	}
 
-	void Update (){
+	void Update ()
+    {
 		Vector2 moveInput = new Vector2 (Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 		moveVelocity = moveInput.normalized * speed;
 	}
-	void FixedUpdate(){
+	void FixedUpdate()
+    {
 		RB.MovePosition (RB.position + moveVelocity * Time.fixedDeltaTime);
 	}
 }
