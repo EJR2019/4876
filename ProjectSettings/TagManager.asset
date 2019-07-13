@@ -8,6 +8,7 @@ TagManager:
   - Sink
   - Waffle
   - Exit
+  - TransitionToC1P3
   layers:
   - Default
   - TransparentFX
