@@ -9,6 +9,7 @@ TagManager:
   - Waffle
   - Exit
   - TransitionToC1P3
+  - KillerCar
   layers:
   - Default
   - TransparentFX
