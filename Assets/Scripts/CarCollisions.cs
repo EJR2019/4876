@@ -1,11 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CarCollisions : MonoBehaviour {
 
- private void OnTriggerEnter2D (Collider2D other)
+    public void OnTriggerEnter2D (Collider2D collision)
     {
-        Debug.Log("Collision detected");
+        if (collision.gameObject.tag == "KillerCar")
+        {
+            Debug.Log("Collision detected");
+            SceneManager.LoadScene("Chapter1Part2");
+
+        }
+        if (collision.gameObject.tag == "TransitionToC1P3")
+        {
+           
+            SceneManager.LoadScene("Chapter1Part3");
+
+        }
+
     }
 }
