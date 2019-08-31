@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class FixFile : MonoBehaviour {
 
+    public AudioSource Loading;
+
     public Sprite FixingFile;
 
     public Sprite FileFixed;
@@ -11,12 +13,14 @@ public class FixFile : MonoBehaviour {
     private void OnMouseDown()
     {
         FixingTheFile();
-
-        Invoke("FixingTheFile", 10f);
+        Loading.Play();
+        Invoke("FixingTheFile", 8f);
         this.GetComponent<SpriteRenderer>().sprite = FileFixed;
+       
     }
     public void FixingTheFile()
     {
         this.GetComponent<SpriteRenderer>().sprite = FixingFile;
+       
     }
 }
