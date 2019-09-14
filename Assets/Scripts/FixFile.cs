@@ -21,7 +21,7 @@ public class FixFile : MonoBehaviour {
         FileIsFixed();
         Invoke("FileIsFixed", 2f);
         TaskFinished = true;
-        Debug.Log("Task complete!");
+        
     }
     public void FixingTheFile()
     {
@@ -35,9 +35,14 @@ public class FixFile : MonoBehaviour {
     void Start()
     {
         TaskFinished = false;
-        if (Input.GetKeyDown("space") && TaskFinished == true)
+        
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && TaskFinished == true)
         {
             SceneManager.LoadScene("ChapterComplete(C1)");
+            Debug.Log("Task complete!");
         }
     }
 }
