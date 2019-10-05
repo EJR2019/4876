@@ -11,6 +11,8 @@ TagManager:
   - TransitionToC1P3
   - KillerCar
   - Computer
+  - OffTheRoad
+  - TransitionToC2P2
   layers:
   - Default
   - TransparentFX
