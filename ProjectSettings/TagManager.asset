@@ -13,6 +13,7 @@ TagManager:
   - Computer
   - OffTheRoad
   - TransitionToC2P2
+  - Officer
   layers:
   - Default
   - TransparentFX
