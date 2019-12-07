@@ -38,3 +38,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Chapter2Part3.unity
     guid: db7d1ce2431fe2940a4bb303cccb565b
+  - enabled: 1
+    path: Assets/Chapter2Part4.unity
+    guid: 9113b5aca927cb44d81df8910b16d5b8
