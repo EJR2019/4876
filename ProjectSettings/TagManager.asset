@@ -17,6 +17,7 @@ TagManager:
   - TravelSpaceShip
   - Asteriod
   - Mars
+  - House
   layers:
   - Default
   - TransparentFX
