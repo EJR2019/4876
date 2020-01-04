@@ -18,6 +18,7 @@ TagManager:
   - Asteriod
   - Mars
   - House
+  - Computer2
   layers:
   - Default
   - TransparentFX
