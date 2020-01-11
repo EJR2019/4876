@@ -19,6 +19,7 @@ TagManager:
   - Mars
   - House
   - Computer2
+  - Goal
   layers:
   - Default
   - TransparentFX
