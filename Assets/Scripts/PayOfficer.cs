@@ -5,12 +5,14 @@ using UnityEngine;
 public class PayOfficer : MonoBehaviour {
 
     public GameObject stopper;
+    public AudioSource ObjectiveCompleted;
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Officer") {
             Destroy(stopper);
             Debug.Log("Ticket payed.");
+            ObjectiveCompleted.Play();
         }
 
         

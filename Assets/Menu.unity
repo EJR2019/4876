@@ -408,7 +408,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -777,7 +777,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4160375791530180, guid: 99377d5c79493104e870bb06102958ce, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -977
       objectReference: {fileID: 0}
     - target: {fileID: 4160375791530180, guid: 99377d5c79493104e870bb06102958ce, type: 2}
       propertyPath: m_LocalRotation.x
